@@ -1,0 +1,16 @@
+1. O que é o ChangeNotifier?
+2. O que é a palavra reservada with em Dart?
+3. Para que serve o método get em uma classe em Dart?
+4. O que é o NotifyListeners?
+5. Como funciona o .indexWhere?
+6. Para que serve o .isCompleted?
+7. Para que serve o .removeWhere?
+8. Para que serve o TaskProvider? 
+9. Como usar o TaskProvider?
+10. Como realmente usar o TextEditingController?
+11. Como user o TaskProvider?
+12. Como usar o ListView.builder?
+13. Como funciona o itemBuilder e seus parâmetros?
+14. O que é um ListTile?
+15. O que é o onChanged no ListTile?
+16. Como funciona o onChaged no ListTile?
