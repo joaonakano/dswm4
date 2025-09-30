@@ -1,16 +1,9 @@
-# aula_30_09_2025_gerenciamento_de_estados_avancado
+# Aula 30/09/2025 - Gerenciamento de Estados Avançado
 
-A new Flutter project.
+Gerenciando estados de um modo mais avançado.
 
-## Getting Started
+## Overview
 
-This project is a starting point for a Flutter application.
+Demonstração da tela após a implementação do gerenciamento de estados com Providers.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="https://github.com/joaonakano/dswm4/blob/main/aulas/aula_30_09_2025_gerenciamento_de_estados_avancado/assets/github/overview.png?raw=true">
