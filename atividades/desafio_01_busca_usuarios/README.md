@@ -9,16 +9,16 @@ Criar um sistema de status de usuários utilizando Providers e o Riverpod no ger
 ## Resultados
 
 ### Overviews do Sistema (Geral)
-<img src="assets/overview-1.png" alt="overview">
+<img src="assets/github/overview-1.png" alt="overview">
 
 ### Overviews do Sistema (Busca de Um Usuário)
-<img src="assets/overview-2.png" alt="overview">
+<img src="assets/github/overview-2.png" alt="overview">
 
 ### Overviews do Sistema (Busca de Múltiplos Usuários)
-<img src="assets/overview-2.png" alt="overview">
+<img src="assets/github/overview-2.png" alt="overview">
 
 ### Overviews do Sistema (Busca Não Encontrada)
-<img src="assets/overview-2.png" alt="overview">
+<img src="assets/github/overview-2.png" alt="overview">
 
 ### Estrutura MVVM
-<img src="assets/mvvm.png" alt="mvvm-structure">
+<img src="assets/github/mvvm.png" alt="mvvm-structure">
