@@ -1,6 +1,4 @@
-import "package:desafio_01_busca_usuarios/models/user.model.dart";
 import "package:desafio_01_busca_usuarios/viewmodel/provider.viewmodel.dart";
-import "package:desafio_01_busca_usuarios/viewmodel/riverpod.viewmodel.dart";
 import "package:desafio_01_busca_usuarios/views/provider.view.dart";
 import "package:desafio_01_busca_usuarios/views/riverpod.view.dart";
 
@@ -8,19 +6,6 @@ import "package:flutter/material.dart";
 
 import "package:flutter_riverpod/flutter_riverpod.dart";
 import "package:provider/provider.dart";
-
-// O provider que irá fornecer a nossa ViewModel (OnlineUsersNotifier) para a árvore de widgets
-// Ele é colocado no topo da árvore. Senão, os componentes não são atualizados adequadamente
-// COMANDOS DEPRECIADOS: final onlineUsersProvider = ChangeNotifierProvider((ref) => OnlineUsersNotifier());
-final onlineUsersProvider = ChangeNotifierProvider(
-  create: (ref) => OnlineUsersNotifier(),
-);
-
-// O provider do Riverpod. Ele irá fornecer a instância do StateNotifier
-// O tipo 'List<User>' é a forma de indicar o tipo do estado que será compartilhado
-final onlineUsersNotifierProvider = NotifierProvider<OnlineUsersStateNotifier, List<User>>(
-  OnlineUsersStateNotifier.new,
-);
 
 // ===============================================
 // PARTE 3: UI DO APLICATIVO (WIDGETS)

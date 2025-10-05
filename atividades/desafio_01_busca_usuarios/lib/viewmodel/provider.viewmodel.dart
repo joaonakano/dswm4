@@ -1,13 +1,20 @@
 import 'package:desafio_01_busca_usuarios/models/user.model.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 // ===============================================
 // PARTE 1: GERENCIAMENTO DE ESTADO COM O PROVIDER
 // ===============================================
 
+// O provider que irá fornecer a nossa ViewModel (OnlineUsersNotifier) para a árvore de widgets
+// Ele é colocado no topo da árvore. Senão, os componentes não são atualizados adequadamente
+// COMANDOS DEPRECIADOS: final onlineUsersProvider = ChangeNotifierProvider((ref) => OnlineUsersNotifier());
+final onlineUsersProvider = ChangeNotifierProvider(
+  create: (ref) => OnlineUsersNotifier(),
+);
+
 // Criando a classe ViewModel para o Provider
 // Ela estende ChangeNotifier, um "emissor" de notificação de mudanças
-
 class OnlineUsersNotifier extends ChangeNotifier {
   // Lista privada de usuários. '_' indica que ela é privada
   final List<User> _users = [

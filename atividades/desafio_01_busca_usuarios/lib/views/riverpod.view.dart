@@ -1,5 +1,5 @@
-import 'package:desafio_01_busca_usuarios/main.dart';
 import 'package:desafio_01_busca_usuarios/models/user.model.dart';
+import 'package:desafio_01_busca_usuarios/viewmodel/riverpod.viewmodel.dart';
 import 'package:desafio_01_busca_usuarios/views/usertile.utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';

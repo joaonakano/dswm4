@@ -5,9 +5,14 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 // PARTE 2: GERENCIAMENTO DE ESTADO COM O RIVERPOD
 // ===============================================
 
+// O provider do Riverpod. Ele irá fornecer a instância do StateNotifier
+// O tipo 'List<User>' é a forma de indicar o tipo do estado que será compartilhado
+final onlineUsersNotifierProvider = NotifierProvider<OnlineUsersStateNotifier, List<User>>(
+  OnlineUsersStateNotifier.new,
+);
+
 // Para o Riverpod, usamos StateNotifier e StateNotifierProvider
 // StateNotifier é uma versão mais robusta e testável do ChangeNotifier
-
 class OnlineUsersStateNotifier extends Notifier<List<User>> {
 
   // O construtor inicializa o estado com a lista de usuários

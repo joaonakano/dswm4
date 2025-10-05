@@ -22,3 +22,6 @@ Criar um sistema de status de usuários utilizando Providers e o Riverpod no ger
 
 ### Estrutura MVVM
 <img src="assets/github/mvvm.png" alt="mvvm-structure">
+
+### Testes Unitários (Riverpod Notifier)
+<img src="assets/github/unit-test.png" alt="unit-test">
